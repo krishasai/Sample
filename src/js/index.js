@@ -6,10 +6,10 @@ console.log(rt.toString())
 console.log(arr.reverse().join('').split(',').toString())
 console.log(rt.toString() === arr.reverse().join('').split(',').toString())
 
-// if(rt.toString() === arr.reverse().join('').split(',').toString()){
-//     console.log('polindram')
-// }else{
-//     console.log("not a polindram")
-// }
+if(rt.toString() === arr.reverse().join('').split(',').toString()){
+    console.log('polindram')
+}else{
+    console.log("not a polindram")
+}
 
 rt.toString() === arr.reverse().join('').split(',').toString() ? document.write('polindrame') : document.write('not a polidrame')
